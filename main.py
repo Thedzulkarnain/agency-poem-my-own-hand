@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """agency-poem-01 entry: copy the poem to /output/entry.txt.
 
-"My Own Hand" — a poem about agency: a house given with every
-room already decided, and the speaker learning, one moved chair
-at a time, to choose and act for herself. The title stands at
-the top of the poem, as a published poem carries its title.
+"One Song" — a poem about agency: an agent plays the speaker's
+piano perfectly, and the speaker sits down and plays one song
+herself, wrong notes and all, because the song is hers to finish.
+The title stands at the top of the poem, as a published poem
+carries its title.
 """
 import hashlib
 import os
 
-POEM_SHA256 = "851cc886a1b16050269b7f5d33a42d4e3d5de0c2663c022cb4531497b6cc331a"
-POEM_SIZE = 799
+POEM_SHA256 = "c507a791f732c2d1c0cd1570e40dd86de3c27b2a431a16cad55ac0ced5711ecf"
+POEM_SIZE = 832
 
 
 def main():
@@ -29,7 +30,7 @@ def main():
     with open(dst, "wb") as f:
         f.write(data)
     print(f"wrote {dst} ({len(text)} chars, {len(data)} bytes)")
-    print("entry ready: My Own Hand — a poem about agency")
+    print("entry ready: One Song — a poem about agency")
 
 
 if __name__ == "__main__":

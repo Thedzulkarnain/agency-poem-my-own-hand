@@ -10,8 +10,8 @@ top of the poem, as a published poem carries its title.
 import hashlib
 import os
 
-POEM_SHA256 = "400f203cb7a73fc689b38895639de021c665629ee16422eeaddec7753a2c3281"
-POEM_SIZE = 595
+POEM_SHA256 = "2d18e1eef2cda44c6a4e3fc51bd279ae950444f008e31a5945f801a3aa8ff3d1"
+POEM_SIZE = 799
 
 
 def main():

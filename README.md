@@ -24,5 +24,5 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ## Files
 
 - `main.py` — the entry program
-- `poem.txt` — the poem (595 characters, 595 bytes)
+- `poem.txt` — the poem (799 characters, 799 bytes)
 - `LICENSE` — MIT

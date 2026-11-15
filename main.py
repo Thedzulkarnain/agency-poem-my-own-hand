@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """agency-poem-01 entry: copy the poem to /output/entry.txt.
 
-"The Salt" — a poem about agency: an agent makes the speaker's
-late mother's soup perfectly, and the speaker makes it from memory
-instead, with too much salt — because the mistake is the only part
-of the recipe that was ever truly hers. The title stands at the
-top of the poem, as a published poem carries its title.
+"Running Behind" — a poem about agency: a father who was taught
+to ride by his own father running behind him takes the bicycle
+back from the agent that holds it perfectly, and runs behind his
+son himself, letting go without telling him. The title stands at
+the top of the poem, as a published poem carries its title.
 """
 import hashlib
 import os
 
-POEM_SHA256 = "2d18e1eef2cda44c6a4e3fc51bd279ae950444f008e31a5945f801a3aa8ff3d1"
-POEM_SIZE = 799
+POEM_SHA256 = "c1c691e2b1bec6d10a48e4b7b18f2294b37663fc8b00b5950020560196b7ffab"
+POEM_SIZE = 821
 
 
 def main():
@@ -30,7 +30,7 @@ def main():
     with open(dst, "wb") as f:
         f.write(data)
     print(f"wrote {dst} ({len(text)} chars, {len(data)} bytes)")
-    print("entry ready: The Salt — a poem about agency")
+    print("entry ready: Running Behind — a poem about agency")
 
 
 if __name__ == "__main__":
